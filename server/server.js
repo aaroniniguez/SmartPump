@@ -30,7 +30,6 @@ const asyncHandler = fn =>
         });
     };  
 	
-//Define app
 let app = express();
 app.use(cors());
 app.use(passport.initialize());
