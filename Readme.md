@@ -13,5 +13,5 @@ Then navigate to :
 
     http://localhost:8001/login
 
-You should see: 
+You should see the login page: 
 ![GitHub Logo](/Images/LogoSplash.png)
