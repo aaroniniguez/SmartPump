@@ -1,5 +1,9 @@
 ## To Run: 
 
+Built using Node Version: 
+
+    v10.15.0
+
 From the root directory run: 
  
     npm run install
@@ -8,3 +12,6 @@ From the root directory run:
 Then navigate to :
 
     http://localhost:8001/login
+
+You should see: 
+![GitHub Logo](/Images/LogoSplash.png)
