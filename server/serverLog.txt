@@ -1,0 +1,2390 @@
+
+====Sun Apr 12 2020 21:10:42 ====
+/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/db.json
+
+====Sun Apr 12 2020 21:10:42 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:10:43 ====
+/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/db.json
+
+====Sun Apr 12 2020 21:10:43 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:11:08 ====
+/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/db.json
+
+====Sun Apr 12 2020 21:11:08 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:11:22 ====
+app now connected
+
+====Sun Apr 12 2020 21:11:22 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'testing' }
+
+====Sun Apr 12 2020 21:11:23 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 21:11:23 ====
+{ id: 'KxMruC1QG',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'bella',
+  phone: 'testing',
+  company: '9165178775',
+  address: '123',
+  eyeColor: 'Brown',
+  age: '3',
+  name: { first: 'testing', last: 'iniguez' },
+  isActive: true,
+  picture: 'http://placehold.it/32x32',
+  balance: '$5000' }
+
+====Sun Apr 12 2020 21:11:23 ====
+RESPONSE 400
+
+====Sun Apr 12 2020 21:11:23 ====
+RESPONSE "invalid account credentials"
+
+====Sun Apr 12 2020 21:11:23 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:42:14)
+    at ServerResponse.json (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:267:15)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:126:25
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:22:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:112:3)
+
+====Sun Apr 12 2020 21:11:23 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:42:14)
+    at ServerResponse.json (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:267:15)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:126:25
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:22:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:112:3)
+
+====Sun Apr 12 2020 21:11:34 ====
+app now connected
+
+====Sun Apr 12 2020 21:11:34 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'bella' }
+
+====Sun Apr 12 2020 21:11:34 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 21:11:34 ====
+{ id: 'KxMruC1QG',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'bella',
+  phone: 'testing',
+  company: '9165178775',
+  address: '123',
+  eyeColor: 'Brown',
+  age: '3',
+  name: { first: 'testing', last: 'iniguez' },
+  isActive: true,
+  picture: 'http://placehold.it/32x32',
+  balance: '$5000' }
+
+====Sun Apr 12 2020 21:11:34 ====
+RESPONSE {"success":true,"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFhcm9uaW5pZ3VlejFAZ21haWwuY29tIiwidXNlcklkIjoiS3hNcnVDMVFHIiwiaWF0IjoxNTg2NzUxMDk0LCJleHAiOjE2MTgzMDgwMjB9.8KdDx7sacPEVaorkbgYHP5fWB1QtpwNsOfQo10FlD0M"}
+
+====Sun Apr 12 2020 21:11:35 ====
+GET /account
+
+====Sun Apr 12 2020 21:11:44 ====
+app now connected
+
+====Sun Apr 12 2020 21:11:44 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'bella' }
+
+====Sun Apr 12 2020 21:11:44 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 21:11:44 ====
+{ id: 'KxMruC1QG',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'bella',
+  phone: 'testing',
+  company: '9165178775',
+  address: '123',
+  eyeColor: 'Brown',
+  age: '3',
+  name: { first: 'testing', last: 'iniguez' },
+  isActive: true,
+  picture: 'http://placehold.it/32x32',
+  balance: '$5000' }
+
+====Sun Apr 12 2020 21:11:44 ====
+RESPONSE {"success":true,"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFhcm9uaW5pZ3VlejFAZ21haWwuY29tIiwidXNlcklkIjoiS3hNcnVDMVFHIiwiaWF0IjoxNTg2NzUxMTA0LCJleHAiOjE2MTgzMDgwMzB9.QIKFlu8Atv8UOZ9uJTzegja0mYGBc3-v2dNj0DsKyTk"}
+
+====Sun Apr 12 2020 21:11:44 ====
+GET /account
+
+====Sun Apr 12 2020 21:12:10 ====
+app now connected
+
+====Sun Apr 12 2020 21:12:10 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'bella' }
+
+====Sun Apr 12 2020 21:12:10 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 21:12:10 ====
+{ id: 'KxMruC1QG',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'bella',
+  phone: 'testing',
+  company: '9165178775',
+  address: '123',
+  eyeColor: 'Brown',
+  age: '3',
+  name: { first: 'testing', last: 'iniguez' },
+  isActive: true,
+  picture: 'http://placehold.it/32x32',
+  balance: '$5000' }
+
+====Sun Apr 12 2020 21:12:10 ====
+RESPONSE {"success":true,"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFhcm9uaW5pZ3VlejFAZ21haWwuY29tIiwidXNlcklkIjoiS3hNcnVDMVFHIiwiaWF0IjoxNTg2NzUxMTMwLCJleHAiOjE2MTgzMDgwNTZ9.FfrVGB8b8bRHQ_soK_m0A6HLOlJOEpRlM3_irbmcqeI"}
+
+====Sun Apr 12 2020 21:12:10 ====
+GET /account
+
+====Sun Apr 12 2020 21:12:19 ====
+app now connected
+
+====Sun Apr 12 2020 21:12:19 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'bella' }
+
+====Sun Apr 12 2020 21:12:19 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 21:12:19 ====
+{ id: 'KxMruC1QG',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'bella',
+  phone: 'testing',
+  company: '9165178775',
+  address: '123',
+  eyeColor: 'Brown',
+  age: '3',
+  name: { first: 'testing', last: 'iniguez' },
+  isActive: true,
+  picture: 'http://placehold.it/32x32',
+  balance: '$5000' }
+
+====Sun Apr 12 2020 21:12:19 ====
+RESPONSE {"success":true,"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFhcm9uaW5pZ3VlejFAZ21haWwuY29tIiwidXNlcklkIjoiS3hNcnVDMVFHIiwiaWF0IjoxNTg2NzUxMTM5LCJleHAiOjE2MTgzMDgwNjV9.ol8HLktfK3GDSTL_3h_gmVbNYvdjATJ4pD5ZIvGKmDA"}
+
+====Sun Apr 12 2020 21:12:19 ====
+GET /account
+
+====Sun Apr 12 2020 21:12:57 ====
+app now connected
+
+====Sun Apr 12 2020 21:12:57 ====
+GET /account
+
+====Sun Apr 12 2020 21:14:22 ====
+/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/db.json
+
+====Sun Apr 12 2020 21:14:22 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:14:35 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:24:01 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:24:09 ====
+error
+{ Error: listen EADDRINUSE: address already in use :::8090
+    at Server.setupListenHandle [as _listen2] (net.js:1290:14)
+    at listenInCluster (net.js:1338:12)
+    at Server.listen (net.js:1425:7)
+    at Function.listen (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:163:18)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8090 }
+
+====Sun Apr 12 2020 21:24:46 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:25:12 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:25:14 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:28:04 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:28:16 ====
+app now connected
+
+====Sun Apr 12 2020 21:28:17 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'bella' }
+
+====Sun Apr 12 2020 21:28:17 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 21:28:17 ====
+{ id: 'KxMruC1QG',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'bella',
+  phone: 'testing',
+  company: '9165178775',
+  address: '123',
+  eyeColor: 'Brown',
+  age: '3',
+  name: { first: 'testing', last: 'iniguez' },
+  isActive: true,
+  picture: 'http://placehold.it/32x32',
+  balance: '$5000' }
+
+====Sun Apr 12 2020 21:28:17 ====
+RESPONSE {"success":true,"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFhcm9uaW5pZ3VlejFAZ21haWwuY29tIiwidXNlcklkIjoiS3hNcnVDMVFHIiwiaWF0IjoxNTg2NzUyMDk3LCJleHAiOjE2MTgzMDkwMjN9.YReoqg4UxqV6nfN1GvWhMOFQGQ9EVxC9aw_fI-BjPiA"}
+
+====Sun Apr 12 2020 21:28:17 ====
+GET /account
+
+====Sun Apr 12 2020 21:28:17 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 21:28:17 ====
+RESPONSE {"id":"KxMruC1QG","email":"aaroniniguez1@gmail.com","password":"bella","phone":"testing","company":"9165178775","address":"123","eyeColor":"Brown","age":"3","name":{"first":"testing","last":"iniguez"},"isActive":true,"picture":"http://placehold.it/32x32","balance":"$5000"}
+
+====Sun Apr 12 2020 21:28:17 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 21:28:17 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:275:15
+
+====Sun Apr 12 2020 21:28:17 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:275:15
+
+====Sun Apr 12 2020 21:29:09 ====
+app now connected
+
+====Sun Apr 12 2020 21:29:09 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'bella' }
+
+====Sun Apr 12 2020 21:29:09 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 21:29:09 ====
+{ id: 'KxMruC1QG',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'bella',
+  phone: 'testing',
+  company: '9165178775',
+  address: '123',
+  eyeColor: 'Brown',
+  age: '3',
+  name: { first: 'testing', last: 'iniguez' },
+  isActive: true,
+  picture: 'http://placehold.it/32x32',
+  balance: '$5000' }
+
+====Sun Apr 12 2020 21:29:09 ====
+RESPONSE {"success":true,"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFhcm9uaW5pZ3VlejFAZ21haWwuY29tIiwidXNlcklkIjoiS3hNcnVDMVFHIiwiaWF0IjoxNTg2NzUyMTQ5LCJleHAiOjE2MTgzMDkwNzV9.a4_hu7FYu75o2OeiMvxH_N8NYEzO_CNRAQg9HehMRvI"}
+
+====Sun Apr 12 2020 21:29:09 ====
+GET /account
+
+====Sun Apr 12 2020 21:29:09 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 21:29:09 ====
+RESPONSE {"id":"KxMruC1QG","email":"aaroniniguez1@gmail.com","password":"bella","phone":"testing","company":"9165178775","address":"123","eyeColor":"Brown","age":"3","name":{"first":"testing","last":"iniguez"},"isActive":true,"picture":"http://placehold.it/32x32","balance":"$5000"}
+
+====Sun Apr 12 2020 21:29:09 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 21:29:09 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 21:29:09 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 21:29:11 ====
+POST /accounts/update
+{ email: 'aaroniniguez1@gmail.com',
+  password: 'bella',
+  company: '9165178775',
+  phone: 'testing',
+  address: '123',
+  firstName: 'testing',
+  lastName: 'iniguez',
+  age: '3',
+  eyeColor: 'Brown',
+  balance: '$5000',
+  id: 'KxMruC1QG',
+  name: { first: 'testing', last: 'iniguez' },
+  isActive: true,
+  picture: 'http://placehold.it/32x32' }
+
+====Sun Apr 12 2020 21:29:11 ====
+RESPONSE KxMruC1QG
+
+====Sun Apr 12 2020 21:29:12 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:29:45 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:29:56 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:30:45 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:31:24 ====
+app now connected
+
+====Sun Apr 12 2020 21:31:24 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'bella' }
+
+====Sun Apr 12 2020 21:31:24 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 21:31:24 ====
+{ id: 'KxMruC1QG',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'bella',
+  phone: 'testing',
+  company: '9165178775',
+  address: '123',
+  eyeColor: 'Brown',
+  age: '3',
+  name: { first: 'testing', last: 'iniguez' },
+  isActive: true,
+  picture: 0,
+  balance: '$5000' }
+
+====Sun Apr 12 2020 21:31:24 ====
+RESPONSE {"success":true,"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFhcm9uaW5pZ3VlejFAZ21haWwuY29tIiwidXNlcklkIjoiS3hNcnVDMVFHIiwiaWF0IjoxNTg2NzUyMjg0LCJleHAiOjE2MTgzMDkyMTB9.TQ60ufqLg7QlIHIwOlewFSop7Gj2m-JL9yUyGIvPWek"}
+
+====Sun Apr 12 2020 21:31:24 ====
+GET /account
+
+====Sun Apr 12 2020 21:31:24 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 21:31:24 ====
+RESPONSE {"id":"KxMruC1QG","email":"aaroniniguez1@gmail.com","password":"bella","phone":"testing","company":"9165178775","address":"123","eyeColor":"Brown","age":"3","name":{"first":"testing","last":"iniguez"},"isActive":true,"picture":0,"balance":"$5000"}
+
+====Sun Apr 12 2020 21:31:24 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 21:31:24 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:275:15
+
+====Sun Apr 12 2020 21:31:24 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:275:15
+
+====Sun Apr 12 2020 21:31:29 ====
+app now connected
+
+====Sun Apr 12 2020 21:31:29 ====
+GET /account
+
+====Sun Apr 12 2020 21:31:29 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 21:31:29 ====
+RESPONSE {"id":"KxMruC1QG","email":"aaroniniguez1@gmail.com","password":"bella","phone":"testing","company":"9165178775","address":"123","eyeColor":"Brown","age":"3","name":{"first":"testing","last":"iniguez"},"isActive":true,"picture":0,"balance":"$5000"}
+
+====Sun Apr 12 2020 21:31:29 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 21:31:29 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 21:31:29 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 21:31:39 ====
+app now connected
+
+====Sun Apr 12 2020 21:31:39 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'bella' }
+
+====Sun Apr 12 2020 21:31:39 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 21:31:39 ====
+{ id: 'KxMruC1QG',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'bella',
+  phone: 'testing',
+  company: '9165178775',
+  address: '123',
+  eyeColor: 'Brown',
+  age: '3',
+  name: { first: 'testing', last: 'iniguez' },
+  isActive: true,
+  picture: 0,
+  balance: '$5000' }
+
+====Sun Apr 12 2020 21:31:39 ====
+RESPONSE {"success":true,"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFhcm9uaW5pZ3VlejFAZ21haWwuY29tIiwidXNlcklkIjoiS3hNcnVDMVFHIiwiaWF0IjoxNTg2NzUyMjk5LCJleHAiOjE2MTgzMDkyMjV9.ILVwK_HDlai4nCP3jDIRC8QJlXQJCU3uOvbmLuJdow0"}
+
+====Sun Apr 12 2020 21:31:39 ====
+GET /account
+
+====Sun Apr 12 2020 21:31:39 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 21:31:39 ====
+RESPONSE {"id":"KxMruC1QG","email":"aaroniniguez1@gmail.com","password":"bella","phone":"testing","company":"9165178775","address":"123","eyeColor":"Brown","age":"3","name":{"first":"testing","last":"iniguez"},"isActive":true,"picture":0,"balance":"$5000"}
+
+====Sun Apr 12 2020 21:31:39 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 21:31:39 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 21:31:39 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 21:31:44 ====
+app now connected
+
+====Sun Apr 12 2020 21:31:44 ====
+GET /account
+
+====Sun Apr 12 2020 21:31:49 ====
+GET /account
+
+====Sun Apr 12 2020 21:36:22 ====
+app now connected
+
+====Sun Apr 12 2020 21:36:22 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'bella' }
+
+====Sun Apr 12 2020 21:36:22 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 21:36:22 ====
+{ id: 'KxMruC1QG',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'bella',
+  phone: 'testing',
+  company: '9165178775',
+  address: '123',
+  eyeColor: 'Brown',
+  age: '3',
+  name: { first: 'testing', last: 'iniguez' },
+  isActive: true,
+  picture: 0,
+  balance: '$5000' }
+
+====Sun Apr 12 2020 21:36:22 ====
+RESPONSE {"success":true,"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFhcm9uaW5pZ3VlejFAZ21haWwuY29tIiwidXNlcklkIjoiS3hNcnVDMVFHIiwiaWF0IjoxNTg2NzUyNTgyLCJleHAiOjE2MTgzMDk1MDh9.9Un_UPeo1-kQM8cnyee12Faa8KYxR-mqBOx7N27zoYU"}
+
+====Sun Apr 12 2020 21:36:22 ====
+GET /account
+
+====Sun Apr 12 2020 21:36:22 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 21:36:22 ====
+RESPONSE {"id":"KxMruC1QG","email":"aaroniniguez1@gmail.com","password":"bella","phone":"testing","company":"9165178775","address":"123","eyeColor":"Brown","age":"3","name":{"first":"testing","last":"iniguez"},"isActive":true,"picture":0,"balance":"$5000"}
+
+====Sun Apr 12 2020 21:36:22 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 21:36:22 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 21:36:22 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 21:36:41 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:36:42 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:36:43 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:36:43 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:36:51 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:48:15 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:48:29 ====
+app now connected
+
+====Sun Apr 12 2020 21:48:29 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'bella' }
+
+====Sun Apr 12 2020 21:48:29 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 21:48:29 ====
+undefined
+
+====Sun Apr 12 2020 21:48:29 ====
+RESPONSE 400
+
+====Sun Apr 12 2020 21:48:29 ====
+RESPONSE "invalid account credentials"
+
+====Sun Apr 12 2020 21:48:29 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at ServerResponse.json (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:267:15)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:127:24
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:112:3)
+
+====Sun Apr 12 2020 21:48:29 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at ServerResponse.json (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:267:15)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:127:24
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:112:3)
+
+====Sun Apr 12 2020 21:48:40 ====
+app now connected
+
+====Sun Apr 12 2020 21:48:40 ====
+POST /accounts/register
+{ submittedModal: { open: false, message: null, status: null },
+  buttonProcessing: false,
+  dropdownOpen: false,
+  email: 'aaroniniguez1@gmail.com',
+  password: 'bella',
+  company: 'testing',
+  phone: 'testing',
+  address: '',
+  firstName: '',
+  age: '',
+  lastName: '',
+  eyeColor: 'Gray',
+  validate: { email: 'has-success', password: 'has-success' } }
+
+====Sun Apr 12 2020 21:48:40 ====
+RESPONSE {"status" : "Success"}
+
+====Sun Apr 12 2020 21:48:41 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:48:49 ====
+app now connected
+
+====Sun Apr 12 2020 21:48:49 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'bella' }
+
+====Sun Apr 12 2020 21:48:49 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 21:48:49 ====
+{ id: 'D5e7cFQXv',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'bella',
+  phone: 'testing',
+  company: 'testing',
+  address: '',
+  eyeColor: 'Gray',
+  age: '',
+  name: { first: '', last: '' },
+  isActive: true,
+  picture: 0,
+  balance: '$5000' }
+
+====Sun Apr 12 2020 21:48:49 ====
+RESPONSE {"success":true,"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFhcm9uaW5pZ3VlejFAZ21haWwuY29tIiwidXNlcklkIjoiRDVlN2NGUVh2IiwiaWF0IjoxNTg2NzUzMzI5LCJleHAiOjE2MTgzMTAyNTV9.aLEHuX4lQvaSirKg2Sy5USVNHqLy05mtfymlh7v0uIM"}
+
+====Sun Apr 12 2020 21:48:49 ====
+GET /account
+
+====Sun Apr 12 2020 21:48:49 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 21:48:49 ====
+RESPONSE {"id":"D5e7cFQXv","email":"aaroniniguez1@gmail.com","password":"bella","phone":"testing","company":"testing","address":"","eyeColor":"Gray","age":"","name":{"first":"","last":""},"isActive":true,"picture":0,"balance":"$5000"}
+
+====Sun Apr 12 2020 21:48:49 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 21:48:49 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:275:15
+
+====Sun Apr 12 2020 21:48:49 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:275:15
+
+====Sun Apr 12 2020 21:49:06 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:49:26 ====
+app now connected
+
+====Sun Apr 12 2020 21:49:26 ====
+POST /accounts/register
+{ submittedModal: { open: false, message: null, status: null },
+  buttonProcessing: false,
+  dropdownOpen: false,
+  email: 'misterpennystocks@gmail.com',
+  password: 'aaron',
+  company: 'aaron',
+  phone: 'aaron',
+  address: '',
+  firstName: '',
+  age: '',
+  lastName: '',
+  eyeColor: '',
+  validate: { email: 'has-success', password: 'has-success' } }
+
+====Sun Apr 12 2020 21:49:26 ====
+RESPONSE {"status" : "Success"}
+
+====Sun Apr 12 2020 21:49:27 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:49:43 ====
+app now connected
+
+====Sun Apr 12 2020 21:49:43 ====
+POST /accounts/login
+{ email: 'misterpennystocks@gmail.com', password: 'aaron' }
+
+====Sun Apr 12 2020 21:49:43 ====
+misterpennystocks@gmail.com
+
+====Sun Apr 12 2020 21:49:43 ====
+{ id: 'l_o-A5Vas',
+  email: 'misterpennystocks@gmail.com',
+  password: 'aaron',
+  phone: 'aaron',
+  company: 'aaron',
+  address: '',
+  eyeColor: '',
+  age: '',
+  name: { first: '', last: '' },
+  isActive: true,
+  picture: 'http://placehold.it/32x32',
+  balance: '$5000' }
+
+====Sun Apr 12 2020 21:49:43 ====
+RESPONSE {"success":true,"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1pc3RlcnBlbm55c3RvY2tzQGdtYWlsLmNvbSIsInVzZXJJZCI6Imxfby1BNVZhcyIsImlhdCI6MTU4Njc1MzM4MywiZXhwIjoxNjE4MzEwMzA5fQ.8PpQYC2KXRMfjGyX2B7IrNtg_qE3lqYu8T8OGQiLkvo"}
+
+====Sun Apr 12 2020 21:49:44 ====
+GET /account
+
+====Sun Apr 12 2020 21:49:44 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 21:49:44 ====
+RESPONSE {"id":"l_o-A5Vas","email":"misterpennystocks@gmail.com","password":"aaron","phone":"aaron","company":"aaron","address":"","eyeColor":"","age":"","name":{"first":"","last":""},"isActive":true,"picture":"http://placehold.it/32x32","balance":"$5000"}
+
+====Sun Apr 12 2020 21:49:44 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 21:49:44 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:275:15
+
+====Sun Apr 12 2020 21:49:44 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:275:15
+
+====Sun Apr 12 2020 21:49:47 ====
+POST /accounts/update
+{ email: 'misterpennystocks@gmail.com',
+  password: 'aaron',
+  company: 'aaron',
+  phone: 'aaron',
+  address: '',
+  firstName: '',
+  lastName: '',
+  age: '',
+  eyeColor: '',
+  balance: '$5000',
+  id: 'l_o-A5Vas',
+  name: { first: '', last: '' },
+  isActive: true,
+  picture: 'http://placehold.it/32x32' }
+
+====Sun Apr 12 2020 21:49:47 ====
+RESPONSE l_o-A5Vas
+
+====Sun Apr 12 2020 21:49:48 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:49:52 ====
+app now connected
+
+====Sun Apr 12 2020 21:49:52 ====
+POST /accounts/update
+{ email: 'misterpennystocks@gmail.com',
+  password: 'aaron',
+  company: 'aaron',
+  phone: 'aaron',
+  address: '',
+  firstName: '',
+  lastName: '',
+  age: '',
+  eyeColor: '',
+  balance: '$600',
+  id: 'l_o-A5Vas',
+  name: { first: '', last: '' },
+  isActive: true,
+  picture: 'http://placehold.it/32x32' }
+
+====Sun Apr 12 2020 21:49:52 ====
+RESPONSE l_o-A5Vas
+
+====Sun Apr 12 2020 21:49:52 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:50:09 ====
+app now connected
+
+====Sun Apr 12 2020 21:50:09 ====
+POST /accounts/login
+{ email: 'misterpennystocks@gmail.com', password: 'aaron' }
+
+====Sun Apr 12 2020 21:50:09 ====
+misterpennystocks@gmail.com
+
+====Sun Apr 12 2020 21:50:09 ====
+{ id: 'l_o-A5Vas',
+  email: 'misterpennystocks@gmail.com',
+  password: 'aaron',
+  phone: 'aaron',
+  company: 'aaron',
+  address: '',
+  eyeColor: '',
+  age: '',
+  name: { first: '', last: '' },
+  isActive: true,
+  picture: 'http://placehold.it/32x32',
+  balance: '$600' }
+
+====Sun Apr 12 2020 21:50:09 ====
+RESPONSE {"success":true,"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1pc3RlcnBlbm55c3RvY2tzQGdtYWlsLmNvbSIsInVzZXJJZCI6Imxfby1BNVZhcyIsImlhdCI6MTU4Njc1MzQwOSwiZXhwIjoxNjE4MzEwMzM1fQ.STAjglyXyvZ96QAxAqaZRCgOpgq_naiJW7OLdk3t0PA"}
+
+====Sun Apr 12 2020 21:50:09 ====
+GET /account
+
+====Sun Apr 12 2020 21:50:09 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 21:50:09 ====
+RESPONSE {"id":"l_o-A5Vas","email":"misterpennystocks@gmail.com","password":"aaron","phone":"aaron","company":"aaron","address":"","eyeColor":"","age":"","name":{"first":"","last":""},"isActive":true,"picture":"http://placehold.it/32x32","balance":"$600"}
+
+====Sun Apr 12 2020 21:50:09 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 21:50:09 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:275:15
+
+====Sun Apr 12 2020 21:50:09 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:275:15
+
+====Sun Apr 12 2020 21:50:12 ====
+GET /account
+
+====Sun Apr 12 2020 21:50:12 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 21:50:12 ====
+RESPONSE {"id":"l_o-A5Vas","email":"misterpennystocks@gmail.com","password":"aaron","phone":"aaron","company":"aaron","address":"","eyeColor":"","age":"","name":{"first":"","last":""},"isActive":true,"picture":"http://placehold.it/32x32","balance":"$600"}
+
+====Sun Apr 12 2020 21:50:12 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 21:50:12 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 21:50:12 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 21:51:58 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:52:03 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:52:06 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:52:08 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:52:12 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 21:52:14 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 22:33:18 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 22:33:21 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 22:33:35 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 22:33:39 ====
+app now connected
+
+====Sun Apr 12 2020 22:33:39 ====
+app now connected
+
+====Sun Apr 12 2020 22:33:39 ====
+GET /test.php
+
+====Sun Apr 12 2020 22:33:39 ====
+hi
+
+====Sun Apr 12 2020 22:33:39 ====
+RESPONSE {"live":"success"}
+
+====Sun Apr 12 2020 22:33:39 ====
+GET /favicon.ico
+
+====Sun Apr 12 2020 22:34:08 ====
+app now connected
+
+====Sun Apr 12 2020 22:34:08 ====
+app now connected
+
+====Sun Apr 12 2020 22:34:08 ====
+GET /test.php
+
+====Sun Apr 12 2020 22:34:08 ====
+hi
+
+====Sun Apr 12 2020 22:34:08 ====
+RESPONSE {"live":"success"}
+
+====Sun Apr 12 2020 22:34:11 ====
+GET /
+
+====Sun Apr 12 2020 22:34:15 ====
+GET /
+
+====Sun Apr 12 2020 22:34:31 ====
+app now connected
+
+====Sun Apr 12 2020 22:34:31 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'testing' }
+
+====Sun Apr 12 2020 22:34:31 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 22:34:31 ====
+{ id: 'D5e7cFQXv',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'bella',
+  phone: 'testing',
+  company: 'testing',
+  address: '',
+  eyeColor: 'Gray',
+  age: '',
+  name: { first: '', last: '' },
+  isActive: true,
+  picture: 0,
+  balance: '$5000' }
+
+====Sun Apr 12 2020 22:34:31 ====
+RESPONSE 400
+
+====Sun Apr 12 2020 22:34:31 ====
+RESPONSE "invalid account credentials"
+
+====Sun Apr 12 2020 22:34:31 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at ServerResponse.json (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:267:15)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:124:25
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:112:3)
+
+====Sun Apr 12 2020 22:34:31 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at ServerResponse.json (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:267:15)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:124:25
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:112:3)
+
+====Sun Apr 12 2020 22:34:53 ====
+app now connected
+
+====Sun Apr 12 2020 22:34:53 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'bella' }
+
+====Sun Apr 12 2020 22:34:53 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 22:34:53 ====
+{ id: 'D5e7cFQXv',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'bella',
+  phone: 'testing',
+  company: 'testing',
+  address: '',
+  eyeColor: 'Gray',
+  age: '',
+  name: { first: '', last: '' },
+  isActive: true,
+  picture: 0,
+  balance: '$5000' }
+
+====Sun Apr 12 2020 22:34:53 ====
+RESPONSE {"success":true,"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFhcm9uaW5pZ3VlejFAZ21haWwuY29tIiwidXNlcklkIjoiRDVlN2NGUVh2IiwiaWF0IjoxNTg2NzU2MDkzLCJleHAiOjE2MTgzMTMwMTl9.NdobH0uz0DB9DIvy4aWV3oMvWi0ieUJ55sD_nFXqD2s"}
+
+====Sun Apr 12 2020 22:34:53 ====
+GET /account
+
+====Sun Apr 12 2020 22:34:53 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 22:34:53 ====
+RESPONSE {"id":"D5e7cFQXv","email":"aaroniniguez1@gmail.com","password":"bella","phone":"testing","company":"testing","address":"","eyeColor":"Gray","age":"","name":{"first":"","last":""},"isActive":true,"picture":0,"balance":"$5000"}
+
+====Sun Apr 12 2020 22:34:53 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 22:34:53 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:275:15
+
+====Sun Apr 12 2020 22:34:53 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:275:15
+
+====Sun Apr 12 2020 22:34:59 ====
+app now connected
+
+====Sun Apr 12 2020 22:34:59 ====
+GET /account
+
+====Sun Apr 12 2020 22:35:04 ====
+app now connected
+
+====Sun Apr 12 2020 22:35:04 ====
+GET /account
+
+====Sun Apr 12 2020 22:35:10 ====
+app now connected
+
+====Sun Apr 12 2020 22:35:10 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'bella' }
+
+====Sun Apr 12 2020 22:35:10 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 22:35:10 ====
+{ id: 'D5e7cFQXv',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'bella',
+  phone: 'testing',
+  company: 'testing',
+  address: '',
+  eyeColor: 'Gray',
+  age: '',
+  name: { first: '', last: '' },
+  isActive: true,
+  picture: 0,
+  balance: '$5000' }
+
+====Sun Apr 12 2020 22:35:10 ====
+RESPONSE {"success":true,"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFhcm9uaW5pZ3VlejFAZ21haWwuY29tIiwidXNlcklkIjoiRDVlN2NGUVh2IiwiaWF0IjoxNTg2NzU2MTEwLCJleHAiOjE2MTgzMTMwMzZ9.pDo5fAa4dPw5u0WgQb7iEe5Bt2IHTtOLLXj29wgDdK4"}
+
+====Sun Apr 12 2020 22:35:10 ====
+GET /account
+
+====Sun Apr 12 2020 22:35:10 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 22:35:10 ====
+RESPONSE {"id":"D5e7cFQXv","email":"aaroniniguez1@gmail.com","password":"bella","phone":"testing","company":"testing","address":"","eyeColor":"Gray","age":"","name":{"first":"","last":""},"isActive":true,"picture":0,"balance":"$5000"}
+
+====Sun Apr 12 2020 22:35:10 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 22:35:10 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 22:35:10 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 22:35:35 ====
+app now connected
+
+====Sun Apr 12 2020 22:35:35 ====
+POST /accounts/register
+{ submittedModal: { open: false, message: null, status: null },
+  buttonProcessing: false,
+  dropdownOpen: false,
+  email: 'aaron@aaron.com',
+  password: 'testing',
+  company: 'testing',
+  phone: 'testing',
+  address: '12345',
+  firstName: 'aaron',
+  age: '23',
+  lastName: 'iniguez',
+  eyeColor: 'Green',
+  validate: { email: 'has-success', password: 'has-success' } }
+
+====Sun Apr 12 2020 22:35:35 ====
+RESPONSE {"status" : "Success"}
+
+====Sun Apr 12 2020 22:35:36 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 22:35:48 ====
+app now connected
+
+====Sun Apr 12 2020 22:35:48 ====
+POST /accounts/login
+{ email: 'aaron@aaron.com', password: 'testing' }
+
+====Sun Apr 12 2020 22:35:48 ====
+aaron@aaron.com
+
+====Sun Apr 12 2020 22:35:48 ====
+{ id: 'W4e-3qxz3',
+  email: 'aaron@aaron.com',
+  password: 'testing',
+  phone: 'testing',
+  company: 'testing',
+  address: '12345',
+  eyeColor: 'Green',
+  age: '23',
+  name: { first: 'aaron', last: 'iniguez' },
+  isActive: true,
+  picture: 'http://placehold.it/32x32',
+  balance: '$5000' }
+
+====Sun Apr 12 2020 22:35:48 ====
+RESPONSE {"success":true,"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFhcm9uQGFhcm9uLmNvbSIsInVzZXJJZCI6Ilc0ZS0zcXh6MyIsImlhdCI6MTU4Njc1NjE0OCwiZXhwIjoxNjE4MzEzMDc0fQ.U2FjIjYWR6CVAeIXj6RPFnrfp1HW1QC34pXwVpPzt58"}
+
+====Sun Apr 12 2020 22:35:48 ====
+GET /account
+
+====Sun Apr 12 2020 22:35:48 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 22:35:48 ====
+RESPONSE {"id":"W4e-3qxz3","email":"aaron@aaron.com","password":"testing","phone":"testing","company":"testing","address":"12345","eyeColor":"Green","age":"23","name":{"first":"aaron","last":"iniguez"},"isActive":true,"picture":"http://placehold.it/32x32","balance":"$5000"}
+
+====Sun Apr 12 2020 22:35:48 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 22:35:48 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:275:15
+
+====Sun Apr 12 2020 22:35:48 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:275:15
+
+====Sun Apr 12 2020 22:36:13 ====
+app now connected
+
+====Sun Apr 12 2020 22:36:13 ====
+GET /account
+
+====Sun Apr 12 2020 22:36:13 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 22:36:13 ====
+RESPONSE {"id":"W4e-3qxz3","email":"aaron@aaron.com","password":"testing","phone":"testing","company":"testing","address":"12345","eyeColor":"Green","age":"23","name":{"first":"aaron","last":"iniguez"},"isActive":true,"picture":"http://placehold.it/32x32","balance":"$5000"}
+
+====Sun Apr 12 2020 22:36:13 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 22:36:13 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 22:36:13 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 22:36:17 ====
+GET /account
+
+====Sun Apr 12 2020 22:36:17 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 22:36:17 ====
+RESPONSE {"id":"W4e-3qxz3","email":"aaron@aaron.com","password":"testing","phone":"testing","company":"testing","address":"12345","eyeColor":"Green","age":"23","name":{"first":"aaron","last":"iniguez"},"isActive":true,"picture":"http://placehold.it/32x32","balance":"$5000"}
+
+====Sun Apr 12 2020 22:36:17 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 22:36:17 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 22:36:17 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 22:36:30 ====
+app now connected
+
+====Sun Apr 12 2020 22:36:30 ====
+GET /account
+
+====Sun Apr 12 2020 22:36:30 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 22:36:30 ====
+RESPONSE {"id":"W4e-3qxz3","email":"aaron@aaron.com","password":"testing","phone":"testing","company":"testing","address":"12345","eyeColor":"Green","age":"23","name":{"first":"aaron","last":"iniguez"},"isActive":true,"picture":"http://placehold.it/32x32","balance":"$5000"}
+
+====Sun Apr 12 2020 22:36:30 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 22:36:30 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 22:36:30 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 22:38:53 ====
+app now connected
+
+====Sun Apr 12 2020 22:38:53 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'bella' }
+
+====Sun Apr 12 2020 22:38:53 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 22:38:53 ====
+{ id: 'D5e7cFQXv',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'bella',
+  phone: 'testing',
+  company: 'testing',
+  address: '',
+  eyeColor: 'Gray',
+  age: '',
+  name: { first: '', last: '' },
+  isActive: true,
+  picture: 0,
+  balance: '$5000' }
+
+====Sun Apr 12 2020 22:38:53 ====
+RESPONSE {"success":true,"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFhcm9uaW5pZ3VlejFAZ21haWwuY29tIiwidXNlcklkIjoiRDVlN2NGUVh2IiwiaWF0IjoxNTg2NzU2MzMzLCJleHAiOjE2MTgzMTMyNTl9.4vfkst_fUy14cYgmE6RmjYwkWlKP_dolJs_QakllP8k"}
+
+====Sun Apr 12 2020 22:38:53 ====
+GET /account
+
+====Sun Apr 12 2020 22:38:53 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 22:38:53 ====
+RESPONSE {"id":"D5e7cFQXv","email":"aaroniniguez1@gmail.com","password":"bella","phone":"testing","company":"testing","address":"","eyeColor":"Gray","age":"","name":{"first":"","last":""},"isActive":true,"picture":0,"balance":"$5000"}
+
+====Sun Apr 12 2020 22:38:53 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 22:38:53 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:275:15
+
+====Sun Apr 12 2020 22:38:53 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:275:15
+
+====Sun Apr 12 2020 22:46:18 ====
+app now connected
+
+====Sun Apr 12 2020 22:46:18 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'testing' }
+
+====Sun Apr 12 2020 22:46:18 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 22:46:18 ====
+{ id: 'D5e7cFQXv',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'bella',
+  phone: 'testing',
+  company: 'testing',
+  address: '',
+  eyeColor: 'Gray',
+  age: '',
+  name: { first: '', last: '' },
+  isActive: true,
+  picture: 0,
+  balance: '$5000' }
+
+====Sun Apr 12 2020 22:46:18 ====
+RESPONSE 400
+
+====Sun Apr 12 2020 22:46:18 ====
+RESPONSE "invalid account credentials"
+
+====Sun Apr 12 2020 22:46:18 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at ServerResponse.json (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:267:15)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:124:25
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:112:3)
+
+====Sun Apr 12 2020 22:46:18 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at ServerResponse.json (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:267:15)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:124:25
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:112:3)
+
+====Sun Apr 12 2020 22:46:21 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'bella' }
+
+====Sun Apr 12 2020 22:46:21 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 22:46:21 ====
+{ id: 'D5e7cFQXv',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'bella',
+  phone: 'testing',
+  company: 'testing',
+  address: '',
+  eyeColor: 'Gray',
+  age: '',
+  name: { first: '', last: '' },
+  isActive: true,
+  picture: 0,
+  balance: '$5000' }
+
+====Sun Apr 12 2020 22:46:21 ====
+RESPONSE {"success":true,"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFhcm9uaW5pZ3VlejFAZ21haWwuY29tIiwidXNlcklkIjoiRDVlN2NGUVh2IiwiaWF0IjoxNTg2NzU2NzgxLCJleHAiOjE2MTgzMTM3MDd9.1N_5huXJEpNivd5y6OS5X0YsmnLR8glnsR0pWqKinPw"}
+
+====Sun Apr 12 2020 22:46:22 ====
+GET /account
+
+====Sun Apr 12 2020 22:46:22 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 22:46:22 ====
+RESPONSE {"id":"D5e7cFQXv","email":"aaroniniguez1@gmail.com","password":"bella","phone":"testing","company":"testing","address":"","eyeColor":"Gray","age":"","name":{"first":"","last":""},"isActive":true,"picture":0,"balance":"$5000"}
+
+====Sun Apr 12 2020 22:46:22 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 22:46:22 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 22:46:22 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 22:46:32 ====
+app now connected
+
+====Sun Apr 12 2020 22:46:32 ====
+POST /accounts/update
+{ email: 'aaroniniguez1@gmail.com',
+  password: 'testing',
+  company: 'testing',
+  phone: 'testing',
+  address: '',
+  firstName: '',
+  lastName: '',
+  age: '',
+  eyeColor: 'Gray',
+  balance: '$5000',
+  id: 'D5e7cFQXv',
+  name: { first: '', last: '' },
+  isActive: true,
+  picture: 0 }
+
+====Sun Apr 12 2020 22:46:32 ====
+RESPONSE D5e7cFQXv
+
+====Sun Apr 12 2020 22:46:33 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 22:46:48 ====
+app now connected
+
+====Sun Apr 12 2020 22:46:48 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'testing' }
+
+====Sun Apr 12 2020 22:46:48 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 22:46:48 ====
+{ id: 'D5e7cFQXv',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'testing',
+  phone: 'testing',
+  company: 'testing',
+  address: '',
+  eyeColor: 'Gray',
+  age: '',
+  name: { first: '', last: '' },
+  isActive: true,
+  picture: 'http://placehold.it/32x32',
+  balance: '$5000' }
+
+====Sun Apr 12 2020 22:46:48 ====
+RESPONSE {"success":true,"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFhcm9uaW5pZ3VlejFAZ21haWwuY29tIiwidXNlcklkIjoiRDVlN2NGUVh2IiwiaWF0IjoxNTg2NzU2ODA4LCJleHAiOjE2MTgzMTM3MzR9.JdO3v0uq7NENZKeBVLhvtFHaDNfO8yDRWWZUUDfi5XU"}
+
+====Sun Apr 12 2020 22:46:48 ====
+GET /account
+
+====Sun Apr 12 2020 22:46:48 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 22:46:48 ====
+RESPONSE {"id":"D5e7cFQXv","email":"aaroniniguez1@gmail.com","password":"testing","phone":"testing","company":"testing","address":"","eyeColor":"Gray","age":"","name":{"first":"","last":""},"isActive":true,"picture":"http://placehold.it/32x32","balance":"$5000"}
+
+====Sun Apr 12 2020 22:46:48 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 22:46:48 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:275:15
+
+====Sun Apr 12 2020 22:46:48 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:275:15
+
+====Sun Apr 12 2020 22:51:19 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 22:51:48 ====
+app now connected
+
+====Sun Apr 12 2020 22:51:48 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'bella' }
+
+====Sun Apr 12 2020 22:51:48 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 22:51:48 ====
+{ id: 'D5e7cFQXv',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'testing',
+  phone: 'testing',
+  company: 'testing',
+  address: '',
+  eyeColor: 'Gray',
+  age: '',
+  name: { first: '', last: '' },
+  isActive: true,
+  picture: 'http://placehold.it/32x32',
+  balance: '$5000' }
+
+====Sun Apr 12 2020 22:51:48 ====
+RESPONSE 400
+
+====Sun Apr 12 2020 22:51:48 ====
+RESPONSE "invalid account credentials"
+
+====Sun Apr 12 2020 22:51:48 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at ServerResponse.json (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:267:15)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:124:25
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:112:3)
+
+====Sun Apr 12 2020 22:51:48 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at ServerResponse.json (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:267:15)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:124:25
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:112:3)
+
+====Sun Apr 12 2020 22:51:53 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'bella' }
+
+====Sun Apr 12 2020 22:51:53 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 22:51:53 ====
+{ id: 'D5e7cFQXv',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'testing',
+  phone: 'testing',
+  company: 'testing',
+  address: '',
+  eyeColor: 'Gray',
+  age: '',
+  name: { first: '', last: '' },
+  isActive: true,
+  picture: 'http://placehold.it/32x32',
+  balance: '$5000' }
+
+====Sun Apr 12 2020 22:51:53 ====
+RESPONSE 400
+
+====Sun Apr 12 2020 22:51:53 ====
+RESPONSE "invalid account credentials"
+
+====Sun Apr 12 2020 22:51:53 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at ServerResponse.json (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:267:15)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:124:25
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:112:3)
+
+====Sun Apr 12 2020 22:51:53 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at ServerResponse.json (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:267:15)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:124:25
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:112:3)
+
+====Sun Apr 12 2020 22:52:00 ====
+app now connected
+
+====Sun Apr 12 2020 22:52:00 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'bella' }
+
+====Sun Apr 12 2020 22:52:00 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 22:52:00 ====
+{ id: 'D5e7cFQXv',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'testing',
+  phone: 'testing',
+  company: 'testing',
+  address: '',
+  eyeColor: 'Gray',
+  age: '',
+  name: { first: '', last: '' },
+  isActive: true,
+  picture: 'http://placehold.it/32x32',
+  balance: '$5000' }
+
+====Sun Apr 12 2020 22:52:00 ====
+RESPONSE 400
+
+====Sun Apr 12 2020 22:52:00 ====
+RESPONSE "invalid account credentials"
+
+====Sun Apr 12 2020 22:52:00 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at ServerResponse.json (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:267:15)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:124:25
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:112:3)
+
+====Sun Apr 12 2020 22:52:00 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at ServerResponse.json (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:267:15)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:124:25
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:112:3)
+
+====Sun Apr 12 2020 22:52:13 ====
+app now connected
+
+====Sun Apr 12 2020 22:52:13 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'bella' }
+
+====Sun Apr 12 2020 22:52:13 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 22:52:13 ====
+{ id: 'D5e7cFQXv',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'testing',
+  phone: 'testing',
+  company: 'testing',
+  address: '',
+  eyeColor: 'Gray',
+  age: '',
+  name: { first: '', last: '' },
+  isActive: true,
+  picture: 'http://placehold.it/32x32',
+  balance: '$5000' }
+
+====Sun Apr 12 2020 22:52:13 ====
+RESPONSE 400
+
+====Sun Apr 12 2020 22:52:13 ====
+RESPONSE "invalid account credentials"
+
+====Sun Apr 12 2020 22:52:13 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at ServerResponse.json (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:267:15)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:124:25
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:112:3)
+
+====Sun Apr 12 2020 22:52:13 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at ServerResponse.json (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:267:15)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:124:25
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:112:3)
+
+====Sun Apr 12 2020 22:52:26 ====
+app now connected
+
+====Sun Apr 12 2020 22:52:26 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'testing' }
+
+====Sun Apr 12 2020 22:52:26 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 22:52:26 ====
+{ id: 'D5e7cFQXv',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'testing',
+  phone: 'testing',
+  company: 'testing',
+  address: '',
+  eyeColor: 'Gray',
+  age: '',
+  name: { first: '', last: '' },
+  isActive: true,
+  picture: 'http://placehold.it/32x32',
+  balance: '$5000' }
+
+====Sun Apr 12 2020 22:52:26 ====
+RESPONSE {"success":true,"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFhcm9uaW5pZ3VlejFAZ21haWwuY29tIiwidXNlcklkIjoiRDVlN2NGUVh2IiwiaWF0IjoxNTg2NzU3MTQ2LCJleHAiOjE2MTgzMTQwNzJ9.Fu3k-7sWiCIrddZ55NfcwlTtNdZqCWFQxw7BD1U2MkU"}
+
+====Sun Apr 12 2020 22:52:26 ====
+GET /account
+
+====Sun Apr 12 2020 22:52:26 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 22:52:26 ====
+RESPONSE {"id":"D5e7cFQXv","email":"aaroniniguez1@gmail.com","password":"testing","phone":"testing","company":"testing","address":"","eyeColor":"Gray","age":"","name":{"first":"","last":""},"isActive":true,"picture":"http://placehold.it/32x32","balance":"$5000"}
+
+====Sun Apr 12 2020 22:52:26 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 22:52:26 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 22:52:26 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 22:52:28 ====
+POST /accounts/update
+{ email: 'aaroniniguez1@gmail.com',
+  password: 'testing',
+  company: 'testing',
+  phone: 'testing',
+  address: '',
+  firstName: '',
+  lastName: '',
+  age: '',
+  eyeColor: 'Gray',
+  balance: '$5000',
+  id: 'D5e7cFQXv',
+  name: { first: '', last: '' },
+  isActive: true,
+  picture: 'http://placehold.it/32x32' }
+
+====Sun Apr 12 2020 22:52:28 ====
+RESPONSE D5e7cFQXv
+
+====Sun Apr 12 2020 22:52:29 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 22:52:32 ====
+app now connected
+
+====Sun Apr 12 2020 22:52:32 ====
+POST /accounts/update
+{ email: 'aaroniniguez1@gmail.com',
+  password: 'testing',
+  company: '',
+  phone: 'testing',
+  address: '',
+  firstName: '',
+  lastName: '',
+  age: '',
+  eyeColor: 'Gray',
+  balance: '$5000',
+  id: 'D5e7cFQXv',
+  name: { first: '', last: '' },
+  isActive: true,
+  picture: 'http://placehold.it/32x32' }
+
+====Sun Apr 12 2020 22:52:32 ====
+RESPONSE D5e7cFQXv
+
+====Sun Apr 12 2020 22:52:33 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 22:52:33 ====
+app now connected
+
+====Sun Apr 12 2020 22:58:37 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 22:58:46 ====
+app now connected
+
+====Sun Apr 12 2020 22:58:46 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'bella' }
+
+====Sun Apr 12 2020 22:58:46 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 22:58:46 ====
+{ id: 'D5e7cFQXv',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'testing',
+  phone: 'testing',
+  company: '',
+  address: '',
+  eyeColor: 'Gray',
+  age: '',
+  name: { first: '', last: '' },
+  isActive: true,
+  picture: 'http://placehold.it/32x32',
+  balance: '$5000' }
+
+====Sun Apr 12 2020 22:58:46 ====
+RESPONSE 400
+
+====Sun Apr 12 2020 22:58:46 ====
+RESPONSE "invalid account credentials"
+
+====Sun Apr 12 2020 22:58:46 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at ServerResponse.json (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:267:15)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:124:25
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:112:3)
+
+====Sun Apr 12 2020 22:58:46 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at ServerResponse.json (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:267:15)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:124:25
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:112:3)
+
+====Sun Apr 12 2020 22:58:49 ====
+POST /accounts/login
+{ email: 'aaroniniguez1@gmail.com', password: 'testing' }
+
+====Sun Apr 12 2020 22:58:49 ====
+aaroniniguez1@gmail.com
+
+====Sun Apr 12 2020 22:58:49 ====
+{ id: 'D5e7cFQXv',
+  email: 'aaroniniguez1@gmail.com',
+  password: 'testing',
+  phone: 'testing',
+  company: '',
+  address: '',
+  eyeColor: 'Gray',
+  age: '',
+  name: { first: '', last: '' },
+  isActive: true,
+  picture: 'http://placehold.it/32x32',
+  balance: '$5000' }
+
+====Sun Apr 12 2020 22:58:49 ====
+RESPONSE {"success":true,"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFhcm9uaW5pZ3VlejFAZ21haWwuY29tIiwidXNlcklkIjoiRDVlN2NGUVh2IiwiaWF0IjoxNTg2NzU3NTI5LCJleHAiOjE2MTgzMTQ0NTV9.ebSsgy7TLvSyrA9ZzVN3ZY4Dt8_WLWh0V7jbaouq1AE"}
+
+====Sun Apr 12 2020 22:58:49 ====
+GET /account
+
+====Sun Apr 12 2020 22:58:49 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 22:58:49 ====
+RESPONSE {"id":"D5e7cFQXv","email":"aaroniniguez1@gmail.com","password":"testing","phone":"testing","company":"","address":"","eyeColor":"Gray","age":"","name":{"first":"","last":""},"isActive":true,"picture":"http://placehold.it/32x32","balance":"$5000"}
+
+====Sun Apr 12 2020 22:58:49 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 22:58:49 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:275:15
+
+====Sun Apr 12 2020 22:58:49 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:275:15
+
+====Sun Apr 12 2020 22:59:39 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 23:00:05 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 23:00:17 ====
+app now connected
+
+====Sun Apr 12 2020 23:00:17 ====
+GET /account
+
+====Sun Apr 12 2020 23:00:17 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 23:00:17 ====
+RESPONSE {"id":"D5e7cFQXv","email":"aaroniniguez1@gmail.com","password":"testing","phone":"testing","company":"","address":"","eyeColor":"Gray","age":"","name":{"first":"","last":""},"isActive":true,"picture":"http://placehold.it/32x32","balance":"$5000"}
+
+====Sun Apr 12 2020 23:00:17 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 23:00:17 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 23:00:17 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 23:08:27 ====
+listening at http://localhost:undefined
+
+====Sun Apr 12 2020 23:12:08 ====
+app now connected
+
+====Sun Apr 12 2020 23:12:08 ====
+GET /account
+
+====Sun Apr 12 2020 23:12:08 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 23:12:08 ====
+RESPONSE {"id":"D5e7cFQXv","email":"aaroniniguez1@gmail.com","password":"testing","phone":"testing","company":"","address":"","eyeColor":"Gray","age":"","name":{"first":"","last":""},"isActive":true,"picture":"http://placehold.it/32x32","balance":"$5000"}
+
+====Sun Apr 12 2020 23:12:08 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 23:12:08 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 23:12:08 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 23:12:34 ====
+app now connected
+
+====Sun Apr 12 2020 23:12:34 ====
+GET /account
+
+====Sun Apr 12 2020 23:12:34 ====
+RESPONSE [object Object]
+
+====Sun Apr 12 2020 23:12:34 ====
+RESPONSE {"id":"D5e7cFQXv","email":"aaroniniguez1@gmail.com","password":"testing","phone":"testing","company":"","address":"","eyeColor":"Gray","age":"","name":{"first":"","last":""},"isActive":true,"picture":"http://placehold.it/32x32","balance":"$5000"}
+
+====Sun Apr 12 2020 23:12:34 ====
+RESPONSE hi
+
+====Sun Apr 12 2020 23:12:34 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)
+
+====Sun Apr 12 2020 23:12:34 ====
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/response.js:145:14)
+    at ServerResponse.app.response.send (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:40:14)
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:66:6
+    at /Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/server.js:20:25
+    at Layer.handle [as handle_request] (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/express/lib/router/route.js:137:13)
+    at complete (/Users/aaroniniguez/Desktop/JobHunt/bwCodeChallenge/server/node_modules/passport/lib/middleware/authenticate.js:268:13)

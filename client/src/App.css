@@ -1,0 +1,53 @@
+html, body, #root  {
+    height: 100%;
+}
+.App {
+    text-align: left;
+    padding: 1em;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+  }
+  
+  .form {
+    padding: 1em;
+  }
+  
+  label {
+    display: flex;
+    font-weight: 600;
+  }
+  
+  button {
+    justify-content: flex-end;
+  }
+  
+  .App-title {
+    font-size: 1.5em;
+  }
+  
+  .App-intro {
+    font-size: large;
+  }
+  
+  @keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  .requiredInput {
+    color: red;
+  }
+
+  .signUpLink {
+    margin-left: 15px;
+  }
+
+.modalError {
+color: #dc3545;
+}
+
+.modalSuccess {
+color: #28a745;
+}
