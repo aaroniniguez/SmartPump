@@ -1,11 +1,14 @@
 import axios from "axios";
 const instance = axios.create({
-  baseURL: 'http://localhost:8090/',
+  baseURL: `http://${process.env.HOST}:${process.env.SERVER_PORT}/`,
   timeout: 1000,
   headers: {
     'X-Custom-Header': 'foobar', 
 }
 });
+
+const loginPage = `http://${process.env.HOST}:${process.env.CLIENT_PORT}/login`;
+const accountPage = `http://${process.env.HOST}:${process.env.CLIENT_PORT}/account`
 
 function useConfig() {
     let config = {
@@ -23,7 +26,7 @@ export const getUserData = (onSuccess, onFail) => {
             onSuccess && onSuccess(response)
         })
         .catch((e) => {
-            window.location.replace("http://localhost:8001/login")
+            window.location.replace(loginPage)
             onFail && onFail(e)
         })
 }
@@ -36,10 +39,10 @@ export const login = (payload, onSuccess, onFail) => {
             localStorage.setItem("jwt", response.data.token);
             onSuccess && onSuccess(response)
             //now redirect to user page
-            window.location.replace("http://localhost:8001/account");
+            window.location.replace(accountPage);
         })
         .catch((e) => {
-            console.log(e)
+            console.log("error:"+accountPage, e)
             onFail && onFail(e)
         })
 }

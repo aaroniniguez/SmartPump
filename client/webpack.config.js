@@ -1,5 +1,7 @@
 const path = require("path");
 const webpack = require("webpack");
+const Dotenv = require('dotenv-webpack');
+dotenv = require('dotenv').config({path: __dirname + '/../.env'});
 
 module.exports = {
   entry: [
@@ -32,12 +34,16 @@ module.exports = {
     filename: "bundle.js"
   },
   devServer: {
+	host:'0.0.0.0',
     contentBase: path.join(__dirname, "src/public/"),
-    port: 8001,
-    publicPath: "http://localhost:8001/dist/",
+    port: process.env.CLIENT_PORT,
+    publicPath: "http://"+process.env.HOST+"/dist/",
     historyApiFallback: true,
     // hotOnly: true,
     // hotOnly: true
   },
-  plugins: [new webpack.HotModuleReplacementPlugin()]
+  plugins: [
+	new webpack.HotModuleReplacementPlugin(),
+	new Dotenv({path: "../.env"})
+	]
 };
