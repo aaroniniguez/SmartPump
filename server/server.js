@@ -1,6 +1,6 @@
-// require('dotenv').config()
 const express = require('express'); 
 const keys = require(__dirname+"/keys.js")
+var dotenv = require('dotenv').config({path: __dirname + '/../.env'});
 var cors = require('cors');
 const {logger, isEmptyObject} =  require("./utils.js")
 console.log = logger;
@@ -159,8 +159,8 @@ app.get('/test.php', asyncHandler(async function(req, res) {
 	return res.send(`{"live":"success"}`);
 }));
 
-let server = app.listen(8090)
+let server = app.listen(process.env.SERVER_PORT)
 	.on("close", message => console.log("close"))
 	.on("connection", message => console.log("app now connected"))
 	.on("error", error => console.log("error", error))
-	.on("listening", error => console.log(`listening at http://localhost:${process.env.PORT}`))
+	.on("listening", error => console.log(`listening at http://${process.env.HOST}:${process.env.SERVER_PORT}`))

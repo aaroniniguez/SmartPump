@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/aaroniniguez/ReactBase/issues"
   },
-  "homepage": "https://github.com/aaroniniguez/ReactBase#readme"
+  "homepage": "https://github.com/aaroniniguez/ReactBase#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
 }

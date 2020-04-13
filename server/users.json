@@ -1,1 +1,38 @@
-{"users":[]}
+{
+  "users": [
+    {
+      "id": "63hqtlwA4",
+      "email": "test@test.com",
+      "password": "test",
+      "phone": "",
+      "company": "test",
+      "address": "",
+      "eyeColor": "",
+      "age": "",
+      "name": {
+        "first": "",
+        "last": ""
+      },
+      "isActive": true,
+      "picture": "http://placehold.it/32x32",
+      "balance": "$5000"
+    },
+    {
+      "id": "Ln-efEhNF",
+      "email": "aaron@aaron.com",
+      "password": "aaron",
+      "phone": "",
+      "company": "",
+      "address": "asdfasdf",
+      "eyeColor": "",
+      "age": "",
+      "name": {
+        "first": "",
+        "last": ""
+      },
+      "isActive": true,
+      "picture": "http://placehold.it/32x32",
+      "balance": "$5000"
+    }
+  ]
+}
