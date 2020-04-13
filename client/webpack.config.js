@@ -34,7 +34,9 @@ module.exports = {
     filename: "bundle.js"
   },
   devServer: {
-	host:'0.0.0.0',
+  host:'0.0.0.0',
+    open: true,
+    openPage: "login",
     contentBase: path.join(__dirname, "src/public/"),
     port: process.env.CLIENT_PORT,
     publicPath: "http://"+process.env.HOST+"/dist/",
