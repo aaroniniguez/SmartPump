@@ -37,7 +37,7 @@ module.exports = {
 	host:'0.0.0.0',
     contentBase: path.join(__dirname, "src/public/"),
     port: process.env.CLIENT_PORT,
-    publicPath: "http://"+process.env.SERVER_HOST+"/dist/",
+    publicPath: "http://"+process.env.HOST+"/dist/",
     historyApiFallback: true,
     // hotOnly: true,
     // hotOnly: true
