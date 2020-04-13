@@ -142,7 +142,7 @@ class Signup extends Component {
     return (
       //passin in isOpen, status, message...
       <Container className="App container">
-        <Modal isOpen={submittedModal.open} toggle={() => this.toggleModal()}>
+        <Modal isOpen={submittedModal.open}>
           <ModalHeader toggle={() => this.toggleModal()}>
           {(submittedModal.status === "Error") ? (
             <span className="modalError">{submittedModal.status}</span>
