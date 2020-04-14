@@ -7,12 +7,10 @@ import {
 import "./ApiModal.css";
 
 function ApiModal(props) {
-    const {open, status, message} = props;
-    const [toggle, setToggle] = React.useState(open)
-    console.log("toggleVal: ", toggle, props)
+    const {isOpen, status, message, toggle} = props;
     return (
-        <Modal isOpen={toggle} toggle={() => setToggle((oldState) => !oldState)}>
-          <ModalHeader toggle={() => setToggle((oldState) => !oldState)}>
+        <Modal isOpen={isOpen} toggle={toggle}>
+          <ModalHeader toggle={toggle}>
           {(status === "Error") ? (
             <span className="modalError">{status}</span>
           ) : (

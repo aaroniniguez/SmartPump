@@ -4,14 +4,30 @@ import {
   Row, Container, Col, Form,
   FormGroup, Label, Input, FormFeedback,
   Dropdown, DropdownItem, DropdownMenu, DropdownToggle,
-  Modal, ModalHeader, ModalBody
 } from 'reactstrap';
 import {update} from "../../../api/apiService"
 import '../../App.css';
 import LoadingButton from '../../Buttons/LoadingButton';
 import {Link} from "react-router-dom"; 
+import useModal from "../../hooks/useModal"
+import useFormValidation from "../../hooks/useFormValidation"
+import ApiModal from '../../Modals/ApiModal';
 
 function UserAccount(props) {
+    const {
+        isOpen,
+        toggle,
+        modalContent,
+        setModalContent
+    } = useModal();
+
+    const {
+        formValidation,
+        validateEmail,
+        validateEmpty,
+        hasValidationErrors
+    } = useFormValidation({email: "valid", password: "valid"})
+
     const userObjectDefault = {
         email: '',
         password: '',
@@ -25,20 +41,7 @@ function UserAccount(props) {
         balance: ''
     }
 
-    const modalDefaultState = {
-        open: false,
-        message: null,
-        status: null
-    }
-
-    const formValidationDefault = {
-        email: 'has-success',
-        password: 'has-success'
-    }
-
-    const [formValidation, setFormValidation] = React.useState(formValidationDefault)
     const [userObject, setUserObject] = React.useState(userObjectDefault);
-    const [submittedModal, setSubmittedModal] = React.useState(modalDefaultState);
     const [dropdownOpen, setDropDownOpen] = React.useState(false)
     const [buttonProcessing, setButtonProcessing] = React.useState(false)
 
@@ -56,48 +59,23 @@ function UserAccount(props) {
         })
     }
     
-    const validateEmail = (email) => {
-        const emailRex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        if (emailRex.test(email)) {
-            setFormValidation(oldState => {
-                return {...oldState, email: 'has-success'}
-            })
-        } else {
-            setFormValidation(oldState => {
-                return {...oldState, email: 'invalid'}
-            })
-        }
-    }
-
-    const validateEmpty = (event) => {
-        let vInput = (event.target.value === "") ? "invalid" : "has-success";
-        let targetName = event.target.name;
-        setFormValidation(oldState => {
-            return {...oldState, [targetName]: vInput}
-        })
-    }
-
-    const hasValidationErrors = () => {
-        let inputsNeedingValidation = Object.keys(formValidation)
-        let validationErrors = false;
-        inputsNeedingValidation.forEach(input => {
-        if(formValidation[input] !== "has-success")
-            validationErrors = true;
-        });
-        return validationErrors;
-    }
-
     const handleUpdate = () => {
         validateEmail(userObject.email)
         validateEmpty({target: {name: "password", value: userObject.password}})
         if(hasValidationErrors())
             return;
         setButtonProcessing(true)
-        console.log(userObject)
-        update(userObject, (response) => {
-            setButtonProcessing(false)
-            toggleModal("success","Successfully updated!");
-        });
+
+        function updateSuccess(response) {
+            setButtonProcessing(false);
+            setModalContent("Success", "Updated!");
+            toggle();
+        }
+        function updateFailure(response) {
+            setModalContent("Error", "Server Issue");
+            toggle()
+        }
+        update(userObject, updateSuccess, updateFailure);
     }
 
     const handleChange = async (event) => {
@@ -110,16 +88,6 @@ function UserAccount(props) {
                 [name]: value
             }
         })
-    }
-
-    const toggleModal = (status = null, message = null) => {
-        setSubmittedModal((oldState) => {
-          return {
-              open: !oldState.open,
-              message,
-              status
-          }
-        });
     }
 
     React.useEffect(() => {
@@ -145,19 +113,13 @@ function UserAccount(props) {
                 Logout
             </Link>
         </div>
-        <Modal toggle={() => toggleModal()} isOpen={submittedModal.open}>
-          <ModalHeader toggle={() => toggleModal()}>
-          {(submittedModal.status === "Error") ? (
-            <span className="modalError">{submittedModal.status}</span>
-          ) : (
-            <span className="modalSuccess">{submittedModal.status}</span>
-          )}
-          </ModalHeader>
-          <ModalBody>
-            {submittedModal.message}
-          </ModalBody>
-      </Modal>
- 
+        <ApiModal
+            isOpen={isOpen}
+            status={modalContent.status}
+            message={modalContent.message}
+            toggle={toggle}
+        >
+        </ApiModal>
         <Col xs={{size: 5, offset: 4}} style={{textAlign: "center"}}>
             <img style={{width: "40%", height: "40%"}} src="/assets/logo.png"></img>
             <h2 style={{marginTop: "30px", marginBottom: "30px"}}>Smart Pump Account Info</h2>
@@ -185,7 +147,7 @@ function UserAccount(props) {
                 id="exampleEmail"
                 placeholder="Email"
                 value={ userObject.email }
-                valid={ formValidation.email === 'has-success' }
+                valid={ formValidation.email === 'valid' }
                 invalid={ formValidation.email === 'invalid' }
                 disabled
               />
@@ -212,7 +174,7 @@ function UserAccount(props) {
                     handleChange(e) 
                     validateEmpty(e)
                 }}
-                valid={ formValidation.password === 'has-success' }
+                valid={ formValidation.password === 'valid' }
                 invalid={ formValidation.password === 'invalid' }
             />
               <FormFeedback>
