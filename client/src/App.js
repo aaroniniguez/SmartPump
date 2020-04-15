@@ -5,7 +5,7 @@ import {
   Button, FormText, FormFeedback,
 } from 'reactstrap';
 import {Link} from "react-router-dom"; 
-import {login} from "../api/apiService"
+import {login, isLoggedIn} from "../api/apiService"
 import './App.css';
 import LoadingButton from './Buttons/LoadingButton';
 

@@ -19,6 +19,17 @@ function useConfig() {
     return config;
 }
 
+export const isLoggedIn = async() => {
+    let returnVal = await instance.get(`account`, useConfig())
+        .then(response => {
+            return true;
+        })
+        .catch((e) => {
+            return false;
+        })
+    return returnVal;
+}
+
 export const getUserData = (onSuccess, onFail) => {
     instance.get(`account`, useConfig())
         .then(response => {

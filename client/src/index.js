@@ -6,6 +6,9 @@ import {BrowserRouter,Route, Switch} from 'react-router-dom';
 import NotFound from "./Pages/NotFound";
 import Signup from "./Pages/Signup";
 import UserAccount from "./Pages/UserAccount";
+import { isLoggedIn } from "../api/apiService.js";
+import PrivateRoute from "./PrivateRoute.js";
+import {Fade} from "./Fade.js"
 ReactDOM.render(
         <BrowserRouter>
           <Switch>
@@ -15,9 +18,7 @@ ReactDOM.render(
                 <Route exact path = "/signup">
                     <Signup/>
                 </Route>
-                <Route exact path = "/account">
-                    <UserAccount/>
-                </Route>
+                    <PrivateRoute exact path="/account" component={UserAccount} />
                 <Route path="*">
                     <NotFound/>
                 </Route>

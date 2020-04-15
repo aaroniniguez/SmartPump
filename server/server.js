@@ -56,15 +56,8 @@ app.use(function (req, res, next) {
 // app.get('/testing', passport.authenticate('jwt'), asyncHandler(async function(req, res) {
 
 app.get('/account', passport.authenticate('jwt', {session: false}), asyncHandler(async function(req, res) {
-	res.send(req.user)
-	// jwt.decode()
-	// let userId = req.params.id
-	// let userData = db.get("users")
-	// 	.find({id: userId})
-	// 	.value()
-	res.send(`hi`);
+	return res.send(req.user)
 }))
-
 
 function userExists(email) {
 	let hasEmail = db.get("users")
