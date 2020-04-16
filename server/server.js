@@ -12,6 +12,7 @@ const adapter = new FileSync(__dirname+'/users.json')
 const db = low(adapter);
 const jwt = require("jsonwebtoken");
 var passport = require('passport');
+var cookieParser = require('cookie-parser')
 require(__dirname+"/passport.js")(passport);
 
 //catches all errors, use this wrapper on all app.get callback func
@@ -31,7 +32,15 @@ const asyncHandler = fn =>
     };  
 	
 let app = express();
-app.use(cors());
+app.use(cookieParser())
+// app.use(cors());
+app.use(function(req, res, next) {
+	res.header("Access-Control-Allow-Origin", "http://localhost:8001")
+	res.header("Access-Control-Allow-Credentials", true)
+	res.header("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT");
+	res.header("Access-Control-Allow-Headers", "Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers");
+	next();
+})
 app.use(passport.initialize());
 app.response.savedSend = app.response.send;
 app.response.send = function(data) {
@@ -88,8 +97,8 @@ function createUserObject(userId, data) {
 }
 
 app.post('/accounts/login', asyncHandler(async function(req, res) {
+	// return res.cookie("token", "token").send("success")
 	let email = req.body.email
-	console.log(email)
 	let existingUser = userExists(email);
 	console.log(existingUser)
 	if(existingUser) {
@@ -106,10 +115,13 @@ app.post('/accounts/login', asyncHandler(async function(req, res) {
 				  expiresIn: 31556926 // 1 day in seconds
 				},
 				(err, token) => {
-				  res.json({
-					success: true,
-					token: "Bearer " + token
-				  });
+				return res
+						.cookie("jwt", token, {
+							maxAge: 31556926,
+							secure :false,
+							httpOnly: true
+						})
+						.send("success")
 				}
 			);
 		} else {
@@ -149,7 +161,7 @@ app.get('/test.php', asyncHandler(async function(req, res) {
 	// db.get("posts")
 	// 	.push({id: shortid.generate(), title: "lowdb is awesome"})
 	// 	.write()
-	return res.send(`{"live":"success"}`);
+	return res.cookie('test','test').send(`{"live":"success"}`);
 }));
 
 let server = app.listen(process.env.SERVER_PORT)

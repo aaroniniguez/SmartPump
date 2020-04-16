@@ -2,7 +2,6 @@ import {isLoggedIn} from "../api/apiService";
 import React from "react";
 import {Redirect, Route} from 'react-router-dom';
 import { Spinner } from 'reactstrap';
-import {Fade} from "./Fade"
 export default class PrivateRoute extends React.Component {
     constructor(props) {
       super(props)

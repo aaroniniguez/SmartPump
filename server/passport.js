@@ -8,7 +8,15 @@ const ExtractJwt = require("passport-jwt").ExtractJwt;
 const keys = require(__dirname+"/keys");
 const opts = {};
 
-opts.jwtFromRequest = ExtractJwt.fromAuthHeaderAsBearerToken();
+var cookieExtractor = function(req) {
+  var token = null;
+  if (req && req.cookies)
+  {
+      token = req.cookies['jwt'];
+  }
+  return token;
+};
+opts.jwtFromRequest = cookieExtractor;
 opts.secretOrKey = keys.secretOrKey;
 
 function userExists(email) {
