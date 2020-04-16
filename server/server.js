@@ -15,6 +15,11 @@ var passport = require('passport');
 var cookieParser = require('cookie-parser')
 require(__dirname+"/passport.js")(passport);
 
+const cookieOptions = {
+	maxAge: 31556926,
+	secure :false,
+	httpOnly: true
+}
 //catches all errors, use this wrapper on all app.get callback func
 const asyncHandler = fn =>  
     (req, res, next) =>  {
@@ -33,7 +38,6 @@ const asyncHandler = fn =>
 	
 let app = express();
 app.use(cookieParser())
-// app.use(cors());
 app.use(function(req, res, next) {
 	res.header("Access-Control-Allow-Origin", "http://localhost:8001")
 	res.header("Access-Control-Allow-Credentials", true)
@@ -60,9 +64,6 @@ app.use(function (req, res, next) {
 		console.log(req.method +" "+ req.url, req.body);
 	next();
 });
-
-//Request Endpoint
-// app.get('/testing', passport.authenticate('jwt'), asyncHandler(async function(req, res) {
 
 app.get('/account', passport.authenticate('jwt', {session: false}), asyncHandler(async function(req, res) {
 	return res.send(req.user)
@@ -96,11 +97,13 @@ function createUserObject(userId, data) {
 	return userObject;
 }
 
+app.get("/accounts/logout", asyncHandler(async function(req, res) {
+	return res.clearCookie("jwt", cookieOptions).send("success");
+}));
+
 app.post('/accounts/login', asyncHandler(async function(req, res) {
-	// return res.cookie("token", "token").send("success")
 	let email = req.body.email
 	let existingUser = userExists(email);
-	console.log(existingUser)
 	if(existingUser) {
 		let existingPassword = existingUser.password;
 		if(existingPassword === req.body.password) {
@@ -115,12 +118,7 @@ app.post('/accounts/login', asyncHandler(async function(req, res) {
 				  expiresIn: 31556926 // 1 day in seconds
 				},
 				(err, token) => {
-				return res
-						.cookie("jwt", token, {
-							maxAge: 31556926,
-							secure :false,
-							httpOnly: true
-						})
+					return res.cookie("jwt", token, cookieOptions)
 						.send("success")
 				}
 			);
@@ -155,13 +153,14 @@ app.post('/accounts/register', asyncHandler(async function(req, res) {
 		.write()
 	return res.send(`{"status" : "Success"}`);
 }))
+
 app.get('/test.php', asyncHandler(async function(req, res) {
 	//Get Zone id
 	console.log("hi")
 	// db.get("posts")
 	// 	.push({id: shortid.generate(), title: "lowdb is awesome"})
 	// 	.write()
-	return res.cookie('test','test').send(`{"live":"success"}`);
+	return res.cookie('testing','test').send(`{"live":"success"}`);
 }));
 
 let server = app.listen(process.env.SERVER_PORT)

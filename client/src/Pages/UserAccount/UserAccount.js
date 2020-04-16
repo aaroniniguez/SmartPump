@@ -1,11 +1,14 @@
 import React from 'react';
-import { getUserData } from '../../../api/apiService';
+import {
+    getUserData,
+    logout,
+    update
+} from '../../../api/apiService';
 import {
   Row, Container, Col, Form,
   FormGroup, Label, Input, FormFeedback,
   Dropdown, DropdownItem, DropdownMenu, DropdownToggle,
 } from 'reactstrap';
-import {update} from "../../../api/apiService"
 import '../../App.css';
 import LoadingButton from '../../Buttons/LoadingButton';
 import {Link} from "react-router-dom"; 
@@ -45,10 +48,6 @@ function UserAccount(props) {
     const [dropdownOpen, setDropDownOpen] = React.useState(false)
     const [buttonProcessing, setButtonProcessing] = React.useState(false)
 
-    const handleLogout = () => {
-        localStorage.removeItem("jwt");
-    }
-    
     const handleEyeColorDropDown = (e) => {
         let value = e.target.innerText;
         setUserObject((oldState) => {
@@ -109,7 +108,7 @@ function UserAccount(props) {
     return (
       <Container className="App container">
         <div style={{textAlign: "right"}}>
-            <Link onClick={() => handleLogout()} to="/login">
+            <Link onClick={() => logout()} to="/login">
                 Logout
             </Link>
         </div>

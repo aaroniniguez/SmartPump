@@ -2,9 +2,6 @@ import axios from "axios";
 const instance = axios.create({
   baseURL: `http://${process.env.HOST}:${process.env.SERVER_PORT}/`,
   timeout: 1000,
-  headers: {
-    'X-Custom-Header': 'foobar', 
-}
 });
 
 const loginPage = `http://${process.env.HOST}:${process.env.CLIENT_PORT}/login`;
@@ -12,9 +9,7 @@ const accountPage = `http://${process.env.HOST}:${process.env.CLIENT_PORT}/accou
 
 function useConfig() {
     let config = {
-        headers: {
-          Authorization: localStorage.getItem("jwt")
-        }
+        withCredentials: true
     }
     return config;
 }
@@ -33,7 +28,6 @@ export const isLoggedIn = async() => {
 export const getUserData = (onSuccess, onFail) => {
     instance.get(`account`, useConfig())
         .then(response => {
-            console.log("success", response);
             onSuccess && onSuccess(response)
         })
         .catch((e) => {
@@ -43,29 +37,31 @@ export const getUserData = (onSuccess, onFail) => {
 }
 
 export const login = (payload, onSuccess, onFail) => {
-    instance.post("accounts/login", payload)
+    instance.post("accounts/login", payload, useConfig())
         .then(response => {
-            console.log("success", response);
-            //get userId from token
-            localStorage.setItem("jwt", response.data.token);
             onSuccess && onSuccess(response)
-            //now redirect to user page
             window.location.replace(accountPage);
         })
         .catch((e) => {
-            console.log("error:"+accountPage, e)
             onFail && onFail(e)
         })
 }
 
+export const logout = (onSuccess, onFail) => {
+    instance.get("accounts/logout", useConfig())
+        .then(response => {
+            onSuccess && onSuccess(response)
+        })
+        .catch((e) => {
+            onFail && onFail(e)
+        })
+}
 export const signup = (payload, onSuccess, onFail) =>  {
     instance.post("accounts/register", payload)
     .then(response => {
-        console.log("success", response)
         onSuccess && onSuccess(response)
     })
     .catch(e => {
-        console.log("error", e)
         onFail && onFail(e)
     })
 }
@@ -73,11 +69,9 @@ export const signup = (payload, onSuccess, onFail) =>  {
 export const update = (payload, onSuccess, onFail) =>  {
     instance.post("accounts/update", payload, useConfig())
     .then(response => {
-        console.log("success", response)
         onSuccess && onSuccess(response)
     })
     .catch(e => {
-        console.log("error", e)
         onFail && onFail(e)
     })
 }
