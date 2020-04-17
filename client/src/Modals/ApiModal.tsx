@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from "react";
 import {
     Modal,
     ModalHeader,
@@ -6,7 +6,14 @@ import {
 } from 'reactstrap';
 import "./ApiModal.css";
 
-function ApiModal(props) {
+interface ApiModalProps {
+  isOpen: boolean,
+  status: string,
+  message: string,
+  toggle: any 
+}
+
+const ApiModal: React.FC<ApiModalProps>  = (props) => {
     const {isOpen, status, message, toggle} = props;
     return (
         <Modal isOpen={isOpen} toggle={toggle}>

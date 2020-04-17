@@ -1,46 +1,41 @@
+
 import {isLoggedIn} from "../api/apiService";
 import React from "react";
 import {Redirect, Route} from 'react-router-dom';
 import { Spinner } from 'reactstrap';
-export default class PrivateRoute extends React.Component {
-    constructor(props) {
-      super(props)
-      this.state = {
-        loading: true,
-        isAuthenticated: false
-      }
-    }
-    componentDidMount() {
+
+function PrivateRoute(props) {
+  const [loading, setLoading] = React.useState(true);
+  const [isAuthenticated, setIsAuthenticated] = React.useState(false);
+  React.useEffect(() =>{
         isLoggedIn().then((isAuthenticated) => {
             //give it a little pause so it transitions nicely
             setTimeout(() => {
-                this.setState({
-                    loading: false,
-                    isAuthenticated
-                })
+             setIsAuthenticated(isAuthenticated);
+             setLoading(false);
             }, 300)
       })
-    }
-    
-    render() {
-      const { component: Component, ...rest } = this.props
-      return (
-        <Route
+  }, [])
+
+  const { component: Component, ...rest } = props
+  return (
+    <Route
           {...rest}
           render={props =>
-            this.state.isAuthenticated ? (
+            isAuthenticated ? (
               <Component {...props} />
             ) : (
-                this.state.loading ? (
+                loading ? (
                     <div style={{height: "100%", display: "flex", alignItems: "center", justifyContent: "center"}}>
                         <Spinner color="primary" />
                     </div>
                 ) : (
-                    <Redirect to={{ pathname: '/login', state: { from: this.props.location } }} />
+                    <Redirect to={{ pathname: '/login', state: { from: props.location } }} />
                   )
               )
           }
-        />
-      )
-    }
-  }
+    />
+  );
+}
+
+export default PrivateRoute;
