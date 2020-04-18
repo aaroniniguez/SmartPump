@@ -65,10 +65,6 @@ app.use(function (req, res, next) {
 	next();
 });
 
-app.get('/account', passport.authenticate('jwt', {session: false}), asyncHandler(async function(req, res) {
-	return res.send(req.user)
-}))
-
 function userExists(email) {
 	let hasEmail = db.get("users")
 		.find({email: email})
@@ -97,11 +93,11 @@ function createUserObject(userId, data) {
 	return userObject;
 }
 
-app.get("/accounts/logout", asyncHandler(async function(req, res) {
+app.get("/logout", asyncHandler(async function(req, res) {
 	return res.clearCookie("jwt", cookieOptions).send("success");
 }));
 
-app.post('/accounts/login', asyncHandler(async function(req, res) {
+app.post('/login', asyncHandler(async function(req, res) {
 	let email = req.body.email
 	let existingUser = userExists(email);
 	if(existingUser) {
@@ -109,7 +105,7 @@ app.post('/accounts/login', asyncHandler(async function(req, res) {
 		if(existingPassword === req.body.password) {
 			const payload = {
 				email: req.body.email,
-				userId: existingUser.id
+				id: existingUser.id
 			};
 			jwt.sign(
 				payload,
@@ -130,7 +126,11 @@ app.post('/accounts/login', asyncHandler(async function(req, res) {
 	}
 }));
 
-app.post('/accounts/update', passport.authenticate('jwt', {session: false}), asyncHandler(async function(req, res) {
+app.get('/account', passport.authenticate('jwt', {session: false}), asyncHandler(async function(req, res) {
+	return res.send(req.user)
+}))
+
+app.put('/account', passport.authenticate('jwt', {session: false}), asyncHandler(async function(req, res) {
 	let userId = req.user.id
 	let updatedUserObject = createUserObject(userId, req.body);
 	db.get('users')
@@ -140,7 +140,7 @@ app.post('/accounts/update', passport.authenticate('jwt', {session: false}), asy
 	res.send(userId);
 }));
 
-app.post('/accounts/register', asyncHandler(async function(req, res) {
+app.post('/account', asyncHandler(async function(req, res) {
 	let body = req.body;
 	if(!body || !body.email || !body.password || !(typeof body.email === "string" && typeof body.password === "string"))
 		return res.status(400).send(`{"status": "error", "message": "invalid data sent to server"`);

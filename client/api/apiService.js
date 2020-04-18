@@ -37,7 +37,7 @@ export const getUserData = (onSuccess, onFail) => {
 }
 
 export const login = (payload, onSuccess, onFail) => {
-    instance.post("accounts/login", payload, useConfig())
+    instance.post("login", payload, useConfig())
         .then(response => {
             onSuccess && onSuccess(response)
             window.location.replace(accountPage);
@@ -48,7 +48,7 @@ export const login = (payload, onSuccess, onFail) => {
 }
 
 export const logout = (onSuccess, onFail) => {
-    instance.get("accounts/logout", useConfig())
+    instance.get("logout", useConfig())
         .then(response => {
             onSuccess && onSuccess(response)
         })
@@ -57,7 +57,7 @@ export const logout = (onSuccess, onFail) => {
         })
 }
 export const signup = (payload, onSuccess, onFail) =>  {
-    instance.post("accounts/register", payload)
+    instance.post("account", payload)
     .then(response => {
         onSuccess && onSuccess(response)
     })
@@ -67,7 +67,7 @@ export const signup = (payload, onSuccess, onFail) =>  {
 }
 
 export const update = (payload, onSuccess, onFail) =>  {
-    instance.post("accounts/update", payload, useConfig())
+    instance.put("account", payload, useConfig())
     .then(response => {
         onSuccess && onSuccess(response)
     })
