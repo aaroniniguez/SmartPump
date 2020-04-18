@@ -1,3 +1,9 @@
+## About
+
+Simple Sign In, Sign up, Update account info CRUD application
+
+Uses JWT Token stored in cookies for authentication
+
 ## Working Demo: 
 
 http://18.216.76.111/login

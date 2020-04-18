@@ -4,9 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter,Route, Switch} from 'react-router-dom';
 import NotFound from "./Pages/NotFound";
 import Signup from "./Pages/Signup";
+import SignIn from "./Pages/SignIn/index.js";
 import UserAccount from "./Pages/UserAccount";
 import PrivateRoute from "./PrivateRoute.js";
-import SignIn from "./Pages/SignIn/index.js";
 ReactDOM.render(
         <BrowserRouter>
           <Switch>
@@ -16,7 +16,7 @@ ReactDOM.render(
                 <Route exact path = "/signup">
                     <Signup/>
                 </Route>
-                    <PrivateRoute exact path="/account" component={UserAccount} />
+                <PrivateRoute exact path="/account" component={UserAccount} />
                 <Route path="*">
                     <NotFound/>
                 </Route>
