@@ -18,7 +18,7 @@ ReactDOM.render(
                 </Route>
                 <PrivateRoute exact path="/account" component={UserAccount} />
                 <Route path="*">
-                    <NotFound/>
+                    <NotFound homePage="/login"/>
                 </Route>
             </Switch>
         </BrowserRouter>,
